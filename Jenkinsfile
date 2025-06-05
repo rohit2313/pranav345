@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Hemavathipcse/GradleJenkinsPipeline.git'
+                git branch: 'master', url: 'https://github.com/rohit2313/pranav345.git'
             }
         }
 
